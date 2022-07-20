@@ -1,4 +1,5 @@
-import java.util.*;
+package MininumpathinGrid;
+// import java.util.*;
 
 class tuf {
     static int minSumpath(int n, int m,int [][]matrix){
