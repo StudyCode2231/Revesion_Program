@@ -8,7 +8,8 @@ public class SolveSuduko {
       }
       System.out.println();
     }
-  } public static void solveSudoku(int[][]board, int i, int j) {
+  } 
+  public static void solveSudoku(int[][]board, int i, int j) {
     if (i == board.length) {
       display(board);
       return;
