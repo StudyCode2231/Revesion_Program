@@ -1,7 +1,7 @@
-// import java.io.*;
-import java.util.*;
 import java.io.*;
-public class Magnet {
+import java.util.*;
+
+public class Main {
     
     public static boolean isSafe(char [][]ans,int row,int col,char sign,int[] top, int[] left, int[] right, int[] bottom){
         
