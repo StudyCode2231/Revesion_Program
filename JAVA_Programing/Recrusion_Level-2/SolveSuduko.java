@@ -61,7 +61,7 @@ public class SolveSuduko {
     }
     return true;
   } public static void main(String[] args) throws Exception
-  { Scanner scn = new Scanner(System.in);
+  { try (Scanner scn = new Scanner(System.in)) {
     int[][] arr = new int[9][9];
     for (int i = 0; i < 9; i++) {
       for (int j = 0; j < 9; j++) {
@@ -69,5 +69,6 @@ public class SolveSuduko {
       }
     }
     solveSudoku(arr, 0, 0);
+  }
   }
 }
