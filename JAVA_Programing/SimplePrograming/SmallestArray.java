@@ -1,5 +1,5 @@
 package JAVA_Programing.SimplePrograming;
-import java.util.*;
+// import java.util.*;
 public class SmallestArray {
     public static void main(String args[]){
         int arr1[]={2,5,1,3,0};
