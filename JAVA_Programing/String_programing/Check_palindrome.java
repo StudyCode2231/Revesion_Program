@@ -1,6 +1,5 @@
-import java.io.*;
-import java.util.Arrays;
-class Test {
+
+class Check_palindrome {
   static private boolean isPalindrome(String s) {
     int left = 0, right = s.length()-1;
         while(left<right)
