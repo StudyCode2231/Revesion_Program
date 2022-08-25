@@ -1,4 +1,3 @@
-
 class Check_palindrome {
   static private boolean isPalindrome(String s) {
     int left = 0, right = s.length()-1;
@@ -18,6 +17,8 @@ class Check_palindrome {
         }
         return true;
   }
+
+  
   public static void main(String[] args) {
     String str = "ABCDCBA";
     boolean ans = isPalindrome(str);
