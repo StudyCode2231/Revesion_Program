@@ -7,7 +7,7 @@ class Student{
     name_k=name;  
     fee_f=fee;  
     }  
-    void display(){System.out.println(rollno+" "+name+" "+fee);}  
+    void display(){System.out.println(rollo+" "+name+" "+fee);}  
     }  
     class TestThis1{  
     public static void main(String args[]){  
