@@ -2,10 +2,10 @@ class Student{
     int rollno;  
     String name;  
     float fee;  
-    Student(int rollno,String name,float fee){  
-    rollno=rollno;  
-    name=name;  
-    fee=fee;  
+    Student(int roll_no,String name_k,float fee_f){  
+    roll_no=rollno;  
+    name_k=name;  
+    fee_f=fee;  
     }  
     void display(){System.out.println(rollno+" "+name+" "+fee);}  
     }  
