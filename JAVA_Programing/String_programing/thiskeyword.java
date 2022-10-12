@@ -1,5 +1,5 @@
 class Student{  
-    int rollno;  
+    int rollo;  
     String name;  
     float fee;  
     Student(int roll_no,String name_k,float fee_f){  
