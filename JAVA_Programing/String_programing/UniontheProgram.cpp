@@ -26,5 +26,5 @@ int main()
     int a[7] = { 1, 2, 5, 6, 2, 3, 5 };
     int b[9] = { 2, 4, 5, 6, 8, 9, 4, 6, 5 };
  
-    printUion(a, 7, b, 9);
+    printU     ion(a, 7, b, 9);
 }
