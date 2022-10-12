@@ -3,7 +3,7 @@ class Student{
     String name;  
     float fee;  
     Student(int roll_no,String name_k,float fee_f){  
-    roll_no=rollno;  
+    roll_no=rollo;  
     name_k=name;  
     fee_f=fee;  
     }  
