@@ -1,6 +1,11 @@
 #include<bits/stdio.h>
 using namespace std;
 
+
+
+int void happy(int arr[],int a){
+
+}
 int main(){
     int n;
     cin>>n;
